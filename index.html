@@ -3,39 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Troubleshoot: Two Truths and a Lie</title>
-</head>
-<body style="background-color: beige;">
-    <h1>Mr Sieg's Truth and Lie Game</h1>
-    <p>I fixed everything while waiting for class to start without using the console, so I did it agian during class using the console on this page:</p>
-    <h1><a href="inclass.html">In-Class Site</a></h1>
-    <hr>
-    <h2>Introductions</h2>
-    <form action="" id="name-form">
-        <label for="fname">First Name:</label><br>
-        <input type="text" name="fname" id="fname"><br> <!--Replaced firstname with fname-->
-        <label for="lname">Last Name:</label><br>
-        <input type="text" name="lname" id="lname"><br>
-        <label for="age">Age:</label><br>
-        <input type="text" name="age" id="age"><br>
-    </form>
-    <br>
-    <input type="button" value="SUBMIT" onclick="greet();"> <!--Removed an e from "greeet"-->
-    <p id="greet" style="font-size: x-large;">Welcome!</p>
-    <h2>Warm up trivia question</h2>
-    <p>What is the only food that cannot go bad?</p>
-    <p id="trivia1-answer"></p>  <!--Added 1 after trivia-->
-    <form action="">
-        <input type="radio" name="trivia1" id="chocolate">
-        <label for="chocolate">Dark Chocolate</label><br>
-        <input type="radio" name="trivia1" id="tuna">
-        <label for="tuna">Canned Tuna</label><br>
-        <input type="radio" name="trivia1" id="honey">
-        <label for="honey">Honey</label><br>
-    </form>
-    <input type="button" value="SUBMIT" onclick="trivia1();">
-    
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <script src="js/truth.js"></script>
+</head>
+<body class="bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2>Bootstrap is for HTML</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <a class="btn btn-primary" href="#" role="button">More on HTML</a>
+            </div>
+            <div class="col-md-6">
+                <h2>Bootstrap is for CSS</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <a class="btn btn-primary" href="#" role="button">More on CSS</a>
+            </div>
+            <div class="col-md-3">
+                <h2>Bootstrap is for JS</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="btn btn-success" role="button">Do something cool with JS</button>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
