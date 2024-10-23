@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Troubleshoot: Two Truths and a Lie</title>
+    <title>Two Truths and a Lie</title>
 </head>
 <body style="background-color: beige;">
     <h1>Mr Sieg's Truth and Lie Game</h1>
-    <p>I fixed everything while waiting for class to start without using the console, so I did it agian during class using the console on this page:</p>
-    <h1><a href="inclass.html">In-Class Site</a></h1>
     <hr>
     <h2>Introductions</h2>
     <form action="" id="name-form">
         <label for="fname">First Name:</label><br>
-        <input type="text" name="fname" id="fname"><br> <!--Replaced firstname with fname-->
+        <input type="text" name="fname" id="fname"><br>
         <label for="lname">Last Name:</label><br>
         <input type="text" name="lname" id="lname"><br>
         <label for="age">Age:</label><br>
         <input type="text" name="age" id="age"><br>
     </form>
     <br>
-    <input type="button" value="SUBMIT" onclick="greet();"> <!--Removed an e from "greeet"-->
+    <input type="button" value="SUBMIT" onclick="greet();">
     <p id="greet" style="font-size: x-large;">Welcome!</p>
     <h2>Warm up trivia question</h2>
     <p>What is the only food that cannot go bad?</p>
-    <p id="trivia1-answer"></p>  <!--Added 1 after trivia-->
+    <p id="trivia1-answer"></p>
     <form action="">
         <input type="radio" name="trivia1" id="chocolate">
         <label for="chocolate">Dark Chocolate</label><br>
@@ -34,7 +32,7 @@
         <label for="honey">Honey</label><br>
     </form>
     <input type="button" value="SUBMIT" onclick="trivia1();">
-    
+
 
     <script src="js/truth.js"></script>
 </body>
