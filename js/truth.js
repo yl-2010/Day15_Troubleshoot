@@ -1,4 +1,6 @@
 let fname = "";
+
+
 function greet() {
     let greetParagraph = document.getElementById("greet");
     fname = document.getElementById("fname").value;
@@ -6,6 +8,8 @@ function greet() {
     let age = document.getElementById("age").value;
     greetParagraph.innerHTML = "Greetings " + age + " year old " + fname + " " + lname;
 }
+
+
 function trivia1() {
     let triviaAnswer = document.getElementById("trivia1-answer");
     // get values from form
